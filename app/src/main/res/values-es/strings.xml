@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarjetas</string>
+    <string name="study_button_text">Estudiar Tarjetas</string>
+    <string name="card_question_label">Pregunta</string>
+    <string name="card_answer_label">Respuesta</string>
+    <string name="uuid_text_view_label_text">Tarjeta</string>
+    <string name="back_to_list_button_text">LISTA DE TARJETAS</string>
+    <string name="answer_button_text">Ver Respuesta</string>
+    <string name="hard_button_text">Difícil</string>
+    <string name="doubt_button_text">Dudo</string>
+    <string name="easy_button_text">Fácil</string>
+    <string name="remove_button_text">Borrar Tarjeta</string>
+    <string name="deck_list_label_text">Deck List</string>
+    <string name="add_to_list_button_text">add</string>
+    <string name="back_to_deck_list_button_text">Atras</string>
+    <string name="save_add_button_text">Guardar</string>
+    <string name="decks_preferences_title">Mazos</string>
+    <string name="decks_preferences_maxCard_text">Mazos</string>
+    <string name="decks_preferences_board_text">Activar la pizarra</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="study">study</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="sign_out">Sing out</string>
+    <string name="signed_out">Sing out</string>
+    <string name="desc_firebase_lockup">Tarjetas</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="loading">Loading...</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="google_status_fmt">Google User: %s</string>
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Cards</string>
+    <string name="study_button_text">Study Cards</string>
+    <string name="card_question_label">Question</string>
+    <string name="card_answer_label">Answer</string>
+    <string name="uuid_text_view_label_text">Card</string>
+    <string name="back_to_list_button_text">CARDS LIST</string>
+    <string name="answer_button_text">Show Answer</string>
+    <string name="hard_button_text">Hard</string>
+    <string name="doubt_button_text">Doubt</string>
+    <string name="easy_button_text">Easy</string>
+    <string name="remove_button_text">Remove Card</string>
+    <string name="deck_list_label_text">Deck List</string>
+    <string name="add_to_list_button_text">add</string>
+    <string name="back_to_deck_list_button_text">Back</string>
+    <string name="save_add_button_text">Save</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string name="decks_preferences_title">Decks</string>
+    <string name="decks_preferences_maxCard_text">Maximum number of cards</string>
+
+    <string name="decks_preferences_board_text">Turn on the board</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="study">study</string>
+
+
+    <string name="sign_out">Sing out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="signed_out">Sing out</string>
+    <string name="desc_firebase_lockup">Tarjetas</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="loading">Loading...</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="google_status_fmt">Google User: %s</string>
+
+</resources>

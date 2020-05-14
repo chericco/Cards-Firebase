@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+    <TextView
+        android:id="@+id/uuid_text_view_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:text="@string/uuid_text_view_label_text"
+        tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/uuid_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/uuid_text_view_label"
+            android:text="12312@ASDASD"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/uuid_text_view"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text=" "
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/question_textView"
+
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_text_view"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="44dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="15dp"
+
+        android:text="@string/card_question_label"
+        android:textAlignment="center"
+        android:textColor="@color/white_smoke"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/question_edit_text"
+
+        android:layout_height="wrap_content"
+        android:layout_width="353dp"
+        android:paddingLeft="15dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background_border"
+
+        android:layout_below="@id/question_textView"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/answer_textView"
+        android:layout_below="@id/question_edit_text"
+        android:layout_width="353dp"
+        android:paddingLeft="15dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:paddingRight="15dp"
+        android:text="@string/card_answer_label"
+        android:textColor="@color/white_smoke"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/answer_edit_text"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer_textView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_border"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+</LinearLayout>
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="@color/colorPrimary"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:fabAlignmentMode="center"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="30dp"
+
+        app:fabCradleVerticalOffset="15dp"
+        app:hideOnScroll="true"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/del_card_fab"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        app:backgroundTint="@color/colorDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_delete"
+        app:maxImageSize="35dp"
+        android:tint="@color/colorWhite"
+        app:layout_anchor="@id/bottomAppbar"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
